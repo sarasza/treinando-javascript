@@ -1,5 +1,7 @@
 const listaDeDestinos = new Array (`Fortaleza`, `Curitiba`, `São Paulo`)
-console.log(listaDeDestinos)
+for (i = 0; i < listaDeDestinos.length; i++) {
+    console.log(listaDeDestinos[i])
+}
 
 listaDeDestinos.splice(1, 1)
 console.log(listaDeDestinos)
